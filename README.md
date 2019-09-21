@@ -1,6 +1,6 @@
 # minimal-grid-system
 Have you ever had to write your own responsve grid system for your project, even though you wanted to use a framework? But you also didn't have a use for dozens of custom components that came bundled with it? 
-I've been facing the same issue and thus decided to make a very minimal and customizable responsive grid system for myself and other peers around the world.
+I've been facing the same issue and thus decided to make a very minimal and customizable responsive grid system for myself and other devs around the world.
 
 Here's a simple working example of the grid http://sarthakjha.com/minimal-grid-system/
 
