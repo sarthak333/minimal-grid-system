@@ -15,7 +15,7 @@ Here's a simple working example of the grid http://sarthakjha.com/minimal-grid-s
 | ------------- | ------------- |
 | container  | This is the parent for our grid. Rows should be inside this tag  |
 | row  | This is the class which will make your cells responsive. Should always be inside `container` and all the columns should be inside a row.  |
-| row-static  | This is a variation of `row` that makes the grid unresponsive. i.e the grid will follow the set `column` width regardless of the viewport width. Should have columns   |
+| row-static  | This is a variation of `row` that makes the row unresponsive. i.e the grid will follow the set `column` width regardless of the viewport width. Should have columns   |
 | col  | This is a dynamic `column`. If there's just 1 `col` in a row it'll take the space of the whole row. If there are 2 then each will take half the space, and so on.    |
 | col-1  | Takes 1 space in the grid. |
 | col-2  | Takes 2 space in the grid.  |
