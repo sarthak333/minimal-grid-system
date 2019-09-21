@@ -13,9 +13,9 @@ Here's a simple working example of the grid http://sarthakjha.com/minimal-grid-s
  
 | CLASS  | USE |
 | ------------- | ------------- |
-| container  | This is the parent for our grid. Rows and columns should be inside this tag  |
-| row  | This is the class which will make your cells responsive. Should always be inside `container`  |
-| row-static  | This is a variation of `row` that makes the grid unresponsive. i.e the grid will follow the set `column` width regardless of the viewport width   |
+| container  | This is the parent for our grid. Rows should be inside this tag  |
+| row  | This is the class which will make your cells responsive. Should always be inside `container` and all the columns should be inside a row.  |
+| row-static  | This is a variation of `row` that makes the grid unresponsive. i.e the grid will follow the set `column` width regardless of the viewport width. Should have columns   |
 | col  | This is a dynamic `column`. If there's just 1 `col` in a row it'll take the space of the whole row. If there are 2 then each will take half the space, and so on.    |
 | col-1  | Takes 1 space in the grid. |
 | col-2  | Takes 2 space in the grid.  |
@@ -45,7 +45,7 @@ There are also a few commonly and extensively used classes that have been added 
 # Points to note
  * This is a 12-columns based grid, thus the suffix of the columns used in any row should always add upto 12.
  * All the column classes can be both responsive or non-responsive, depending on the row class chosen.
- * This is a skeleton grid. It might not work exactly as you would like it to, thus feel free to make and suggest chagnes. Also I'd love it if you were to make a separate branch for your version of this grid and share it with others too.
+ * This is a skeleton grid. It might not work exactly as you would like it to, thus feel free to make and suggest chagnes. Also, I'd love it if you were to make a separate branch for your version of this grid and share it with others too.
  
  # Happy Coding!
 
