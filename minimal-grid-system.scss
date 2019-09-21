@@ -1,0 +1,164 @@
+//SCREEB SIZE VARIABLES
+$screen-sm-min: 600px;
+$screen-md-min: 992px;
+$screen-lg-min: 1200px;
+
+//PARENT CONTAINER
+//START
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+
+  //STATIC ROWS
+  //START
+  .row-static {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    box-sizing: border-box;
+
+    .cell {
+      height: 100%;
+      padding: 5px;
+      box-sizing: border-box;
+      word-wrap: break-word;
+      @extend .center;
+    }
+  }
+  //END
+  //STATIC ROWS
+
+  //RESPONSIVE ROWS
+  //START
+  .row {
+    @media (max-width: #{$screen-md-min}) {
+      flex-wrap: wrap;
+      height: 100%;
+    }
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    box-sizing: border-box;
+
+    .cell {
+      @extend .responsive;
+      height: 100%;
+      padding: 5px;
+      box-sizing: border-box;
+      word-wrap: break-word;
+      @extend .center;
+    }
+
+    .responsive {
+      @media (max-width: #{$screen-md-min}) {
+        width: 100% !important;
+      }
+    }
+  }
+  //END
+  //RESPONSIVE ROWS
+}
+//END
+//PARENT CONTAINER
+
+//DEFINED COLUMNS
+//START
+.col {
+  @extend .cell;
+  width: 100%;
+}
+
+.col-1 {
+  @extend .cell;
+  width: 8.333333333%;
+}
+
+.col-2 {
+  @extend .cell;
+  width: 16.666666667%;
+}
+
+.col-3 {
+  @extend .cell;
+  width: 25%;
+}
+
+.col-4 {
+  @extend .cell;
+  width: 33.3333333333%;
+}
+
+.col-5 {
+  @extend .cell;
+  width: 41.6666666667%;
+}
+
+.col-6 {
+  @extend .cell;
+  width: 50%;
+}
+
+.col-7 {
+  @extend .cell;
+  width: 58.3333333333%;
+}
+
+.col-8 {
+  @extend .cell;
+  width: 66.6666666667%;
+}
+
+.col-9 {
+  @extend .cell;
+  width: 75%;
+}
+
+.col-10 {
+  @extend .cell;
+  width: 83.3333333333%;
+}
+
+.col-11 {
+  @extend .cell;
+  width: 91.6666666667%;
+}
+
+.col-12 {
+  @extend .cell;
+  width: 100%;
+}
+//END
+//DEFINED COLUMNS
+
+//SOME EXTREMELY COMMON AND USEFUL CSS CLASSES
+//START
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-v {
+  display: flex;
+  align-items: center;
+}
+
+.center-h {
+  display: flex;
+  justify-content: center;
+}
+
+.full-size {
+  height: 100%;
+  width: 100%;
+}
+
+.full-screen{
+  height: 100vh;
+  width: 100vw;
+}
+
+//SOME EXTREMELY COMMON AND USEFUL CSS CLASSES
+// END
