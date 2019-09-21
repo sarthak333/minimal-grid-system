@@ -46,6 +46,7 @@ There are also a few commonly and extensively used classes that have been added 
  * This is a 12-columns based grid, thus the suffix of the columns used in any row should always add upto 12.
  * All the column classes can be both responsive or non-responsive, depending on the row class chosen.
  * This is a skeleton grid. It might not work exactly as you would like it to, thus feel free to make and suggest chagnes. Also, I'd love it if you were to make a separate branch for your version of this grid and share it with others too.
+ * Suggestions and PRs are welcomed.
  
  # Happy Coding!
 
